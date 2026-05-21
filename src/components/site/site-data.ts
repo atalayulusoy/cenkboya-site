@@ -76,32 +76,32 @@ export const productItems = [
     eyebrow: "Hassas ağ ve yüksek transfer",
     accent: ["#ef4444", "#f97316"],
     image:
-      "https://images.pexels.com/photos/697673/pexels-photo-697673.jpeg?auto=compress&cs=tinysrgb&w=900",
-    imageAlt: "Serigrafi baski uygulamasi",
+      "https://www.okangokhan.com/wp-content/uploads/2024/01/serigrafi-baski-uygulamasi-7-1.jpg",
+    imageAlt: "Serigrafi baski makinesinde silecek ve boya uygulamasi",
   },
   {
     title: "Akrilik Boyalar",
     eyebrow: "Esnek ve hızlı kuruyan yapı",
     accent: ["#22c55e", "#84cc16"],
     image:
-      "https://images.pexels.com/photos/3735718/pexels-photo-3735718.jpeg?auto=compress&cs=tinysrgb&w=900",
-    imageAlt: "Renkli boya pigmentleri ve laboratuvar calismasi",
+      "https://images.pexels.com/photos/697673/pexels-photo-697673.jpeg?auto=compress&cs=tinysrgb&w=900",
+    imageAlt: "Akrilik boya tupleri ve fircalar",
   },
   {
     title: "Hobi Boyaları",
     eyebrow: "Canlı tonlar ve pratik kullanım",
     accent: ["#facc15", "#fb7185"],
     image:
-      "https://images.pexels.com/photos/10275085/pexels-photo-10275085.jpeg?auto=compress&cs=tinysrgb&w=900",
-    imageAlt: "Hobi boyalari icin renk kartelasi",
+      "https://images.pexels.com/photos/20515532/pexels-photo-20515532.jpeg?auto=compress&cs=tinysrgb&w=900",
+    imageAlt: "Polyester figur boyayan sanatci",
   },
   {
     title: "Poşet Baskı Boyaları",
     eyebrow: "Kaygan yüzeylerde güçlü tutuculuk",
     accent: ["#38bdf8", "#0ea5e9"],
     image:
-      "https://images.pexels.com/photos/33511696/pexels-photo-33511696.jpeg?auto=compress&cs=tinysrgb&w=900",
-    imageAlt: "Plastik yuzey uzerine renkli baski uygulamasi",
+      "https://images.pexels.com/photos/29914081/pexels-photo-29914081.jpeg?auto=compress&cs=tinysrgb&w=900",
+    imageAlt: "Kraft poset ve ambalaj baskisi",
   },
   {
     title: "Tişört Baskı Boyaları",
@@ -116,8 +116,8 @@ export const productItems = [
     eyebrow: "Fonksiyonel ve dayanıklı işaretleme",
     accent: ["#14b8a6", "#06b6d4"],
     image:
-      "https://images.pexels.com/photos/35383622/pexels-photo-35383622.jpeg?auto=compress&cs=tinysrgb&w=900",
-    imageAlt: "Endustriyel kalite kontrol ve isaretleme calismasi",
+      "https://images.pexels.com/photos/8447755/pexels-photo-8447755.jpeg?auto=compress&cs=tinysrgb&w=900",
+    imageAlt: "Mavi is eldiveni uzerine baski uygulamasi",
   },
   {
     title: "Endüstriyel Baskı Boyaları",
