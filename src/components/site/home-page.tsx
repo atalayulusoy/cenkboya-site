@@ -408,44 +408,47 @@ function ProductCard({
         whileHover={{ y: -10 }}
         transition={{ duration: 0.35, ease: easeOut }}
       >
-        <div
-          className="relative overflow-hidden rounded-[1.6rem] border border-white/10 p-6"
-          style={{
-            background: `linear-gradient(145deg, ${product.accent[0]}33 0%, rgba(11,15,30,0.82) 48%, ${product.accent[1]}1f 100%)`,
-          }}
-        >
+        <div className="relative overflow-hidden rounded-[1.6rem] border border-white/10 bg-black/20">
+          <div className="absolute inset-x-5 top-5 z-20 flex items-center justify-between">
+            <span className="rounded-full border border-white/14 bg-black/35 px-3 py-1 text-[11px] uppercase tracking-[0.28em] text-white/78 backdrop-blur-md">
+              Premium Seri
+            </span>
+            <div className="flex gap-2">
+              <span
+                className="h-3 w-3 rounded-full shadow-[0_0_18px_rgba(255,255,255,0.26)]"
+                style={{ backgroundColor: product.accent[0] }}
+              />
+              <span
+                className="h-3 w-3 rounded-full shadow-[0_0_18px_rgba(255,255,255,0.26)]"
+                style={{ backgroundColor: product.accent[1] }}
+              />
+            </div>
+          </div>
+          <div className="relative h-48 overflow-hidden">
+            <Image
+              src={product.image}
+              alt={product.imageAlt}
+              fill
+              sizes="(min-width: 1280px) 23vw, (min-width: 768px) 45vw, 100vw"
+              className="object-cover transition duration-700 group-hover:scale-105"
+            />
+            <div
+              className="absolute inset-0"
+              style={{
+                background: `linear-gradient(180deg, rgba(6,8,20,0.12) 0%, rgba(6,8,20,0.44) 48%, rgba(6,8,20,0.9) 100%), linear-gradient(135deg, ${product.accent[0]}33, transparent 42%, ${product.accent[1]}26)`,
+              }}
+            />
+          </div>
           <div
-            className="absolute -left-8 top-8 h-24 w-24 rounded-full blur-2xl"
-            style={{ background: `${product.accent[0]}90` }}
+            className="absolute -left-8 top-16 h-24 w-24 rounded-full blur-2xl"
+            style={{ background: `${product.accent[0]}7a` }}
           />
           <div
-            className="absolute -right-8 bottom-0 h-24 w-24 rounded-full blur-2xl"
-            style={{ background: `${product.accent[1]}80` }}
+            className="absolute -right-8 bottom-4 h-24 w-24 rounded-full blur-2xl"
+            style={{ background: `${product.accent[1]}70` }}
           />
-          <div className="relative space-y-4">
-            <div className="flex items-center justify-between">
-              <span className="rounded-full border border-white/10 bg-white/10 px-3 py-1 text-[11px] uppercase tracking-[0.28em] text-white/70">
-                Premium Seri
-              </span>
-              <div className="flex gap-2">
-                <span
-                  className="h-3 w-3 rounded-full"
-                  style={{ backgroundColor: product.accent[0] }}
-                />
-                <span
-                  className="h-3 w-3 rounded-full"
-                  style={{ backgroundColor: product.accent[1] }}
-                />
-              </div>
-            </div>
-            <div className="grid h-36 place-items-center rounded-[1.4rem] border border-white/10 bg-black/20">
-              <div className="product-ink-grid">
-                <span style={{ backgroundColor: product.accent[0] }} />
-                <span style={{ backgroundColor: product.accent[1] }} />
-                <span style={{ backgroundColor: "#ffffff" }} />
-              </div>
-            </div>
-            <div>
+          <div className="relative">
+            <div className="px-6 pb-6 pt-5">
               <p className="text-xs uppercase tracking-[0.3em] text-white/56">
                 {product.eyebrow}
               </p>

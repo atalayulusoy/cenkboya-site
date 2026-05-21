@@ -75,51 +75,81 @@ export const productItems = [
     title: "Serigrafi Boyaları",
     eyebrow: "Hassas ağ ve yüksek transfer",
     accent: ["#ef4444", "#f97316"],
+    image:
+      "https://images.pexels.com/photos/697673/pexels-photo-697673.jpeg?auto=compress&cs=tinysrgb&w=900",
+    imageAlt: "Serigrafi baski uygulamasi",
   },
   {
     title: "Akrilik Boyalar",
     eyebrow: "Esnek ve hızlı kuruyan yapı",
     accent: ["#22c55e", "#84cc16"],
+    image:
+      "https://images.pexels.com/photos/3735718/pexels-photo-3735718.jpeg?auto=compress&cs=tinysrgb&w=900",
+    imageAlt: "Renkli boya pigmentleri ve laboratuvar calismasi",
   },
   {
     title: "Hobi Boyaları",
     eyebrow: "Canlı tonlar ve pratik kullanım",
     accent: ["#facc15", "#fb7185"],
+    image:
+      "https://images.pexels.com/photos/10275085/pexels-photo-10275085.jpeg?auto=compress&cs=tinysrgb&w=900",
+    imageAlt: "Hobi boyalari icin renk kartelasi",
   },
   {
     title: "Poşet Baskı Boyaları",
     eyebrow: "Kaygan yüzeylerde güçlü tutuculuk",
     accent: ["#38bdf8", "#0ea5e9"],
+    image:
+      "https://images.pexels.com/photos/33511696/pexels-photo-33511696.jpeg?auto=compress&cs=tinysrgb&w=900",
+    imageAlt: "Plastik yuzey uzerine renkli baski uygulamasi",
   },
   {
     title: "Tişört Baskı Boyaları",
     eyebrow: "Tekstilde esnek, doygun baskı",
     accent: ["#a855f7", "#ec4899"],
+    image:
+      "https://images.pexels.com/photos/33650426/pexels-photo-33650426.jpeg?auto=compress&cs=tinysrgb&w=900",
+    imageAlt: "Tisort baski ve tekstil boya uygulamasi",
   },
   {
     title: "Eldiven Baskı Boyaları",
     eyebrow: "Fonksiyonel ve dayanıklı işaretleme",
     accent: ["#14b8a6", "#06b6d4"],
+    image:
+      "https://images.pexels.com/photos/35383622/pexels-photo-35383622.jpeg?auto=compress&cs=tinysrgb&w=900",
+    imageAlt: "Endustriyel kalite kontrol ve isaretleme calismasi",
   },
   {
     title: "Endüstriyel Baskı Boyaları",
     eyebrow: "Yoğun kullanım için kararlı performans",
     accent: ["#f97316", "#eab308"],
+    image:
+      "https://images.pexels.com/photos/18569745/pexels-photo-18569745.jpeg?auto=compress&cs=tinysrgb&w=900",
+    imageAlt: "Endustriyel uretim hattinda baski boyasi uygulamasi",
   },
   {
     title: "Tekstil Baskı Boyaları",
     eyebrow: "Yumuşak tuşe ve kalıcı renk",
     accent: ["#6366f1", "#8b5cf6"],
+    image:
+      "https://images.pexels.com/photos/33650426/pexels-photo-33650426.jpeg?auto=compress&cs=tinysrgb&w=900",
+    imageAlt: "Tekstil yuzeyinde renkli baski uygulamasi",
   },
   {
     title: "Plastik Baskı Boyaları",
     eyebrow: "Sert yüzeylere özel formül",
     accent: ["#06b6d4", "#3b82f6"],
+    image:
+      "https://images.pexels.com/photos/33511696/pexels-photo-33511696.jpeg?auto=compress&cs=tinysrgb&w=900",
+    imageAlt: "Plastik bardak uzerine baski uygulamasi",
   },
   {
     title: "Özel Üretim Boyalar",
     eyebrow: "İhtiyaca göre formül tasarımı",
     accent: ["#fb7185", "#f43f5e"],
+    image:
+      "https://images.pexels.com/photos/3735718/pexels-photo-3735718.jpeg?auto=compress&cs=tinysrgb&w=900",
+    imageAlt: "Ozel renk formulu icin boya laboratuvari",
   },
 ];
 
